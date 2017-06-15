@@ -1,0 +1,139 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,900');
+html {
+    width: 1360px;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #163740;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.beats-form {
+    margin: 100px 150px;
+    background-color: #FAFAFA;
+    display: flex;
+    box-sizing: border-box;
+    height: 620px;
+}
+
+.beats-image {
+    width: 45%;
+}
+
+.form-info{
+    width: 55%;
+}
+
+.beats-image img {
+    padding-left: 55px;
+    border-bottom-left-radius: 215px;
+    border-bottom-right-radius: 195px;
+}
+
+header{
+    text-align: right;
+    margin-right: 35px;
+}
+.title, .price {
+    text-transform: uppercase;
+    color: #9C9C9C;
+}
+
+.price {
+    margin-top: 0;
+}
+.title {
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+input{
+    border:none;
+    border-bottom: 2px solid #4A4946;
+    padding: 20px;
+    outline: none;
+    background-color: #FAFAFA;
+    padding-left: 50px;
+}
+
+input[placeholder]{
+    text-transform: uppercase;
+}
+
+.form-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-data {
+    display: flex;
+    margin-top: 120px;
+}
+
+.left-data {
+    margin-right: 45px;
+}
+
+.fa-user {
+    font-size: 30px;
+    position: relative;
+    top: 5px;
+    right: 230px;
+    color: #575757;
+}
+
+.fa-globe {
+    font-size: 30px;
+    position: relative;
+    top: -47px;
+    left: 10px;
+    color: #575757;
+}
+
+.fa-credit-card {
+    font-size: 30px;
+    position: relative;
+    top: -47px;
+    left: 10px;
+    color: #575757;
+}
+
+.fa-address-card-o {
+    font-size: 30px;
+    position: relative;
+    top: -47px;
+    left: 5px;
+    color: #575757;
+}
+
+.fa-lock {
+    font-size: 40px;
+    position: relative;
+    bottom: -5px;
+    right: 234px;
+    color: #575757;
+}
+
+.submit-button {
+    text-align: right;
+    margin-right: 38px;
+}
+
+.right-data {
+    margin-top: 55px;
+}
+
+.submit {
+    border: none;
+    background-color: #535E66;
+    border-radius: 25px;
+    color: white;
+    text-transform: uppercase;
+    width: 175px;
+    padding-right: 46px;
+    align-items: center;
+    font-weight: 900;
+}
